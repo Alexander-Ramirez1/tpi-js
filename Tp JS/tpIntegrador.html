@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conferencia de Buenos Aires</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="imagenes/codoacodo.png"/>
+	<link rel="stylesheet" type="text/css" href="EstilosTPIn.css"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"/>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-
+	/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+	<script src="tpjs.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<div><img src="imagenes/codoacodo.png" width="70"> <a href="index.html">Conf Bs As</a></div>
+			<ul>
+				<li><a href="conferencia.html">La Conferencia</a></li>
+				<li><a href="oradores.html">Los Oradores</a></li>
+				<li><a href="lugaryfecha.html">El lugar y la fecha</a></li>
+				<li><a href="convierteenorador.html">Conviértete en orador</a></li>
+				<li><a id="tickets" href="comprartickets.html">Comprar tickets</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="cajapadre">
+		<div id="caja-1">
+			<h3>Estudiante</h3>
+			<br>
+			<p>Tienen un descuento</p> 
+			<br> 
+			<p><b>80%</b></p>
+			<br> 
+			<p>*presentar documentación</p>
+		</div>
+
+		<div id="caja-2">
+			<h3>Trainee</h3>
+			<br>
+			<p>Tienen un descuento</p>
+			<br> 
+			<p><b>50%</b></p>
+			<br> 
+			<p>*presentar documentación</p>
+		</div>
+
+		<div id="caja-3">
+			<h3>Junior</h3>
+			<br>
+			<p>Tienen un descuento</p>
+			<br> 
+			<p><b>15%</b></p>
+			<br>
+			<p>*presentar documentación</p>
+		</div>
+	</section>
+	<br>
+	<br>
+	<br>
+	<section id="formulario">
+		<h6>VENTA</h6>
+		<h1>VALOR DE TICKET $200</h1>
+		<form>
+			<fieldset>
+				<p><input type="text" name="nombre" placeholder="Nombre"> <input type="text" name="Apellido" placeholder="Apellido"></p>
+				<br>
+				<p><input id="areaCorreo" type="text" name="Correo" placeholder="Correo"></p>
+				<br>
+				<p><label for="cantidad">Cantidad</label> &nbsp; <label for="categoria">Categoria</label></p>
+				<br>
+				<p><input type="text" name="Cantidad" id="cantidad" placeholder="Cantidad"> <select id="categoria" name="Categoria">
+					<option value="1">Estudiante</option>
+					<option value="2">Trainee</option>
+					<option value="3">Junior</option>
+					</select>
+				</p>
+				<br>
+				<p><input id="pago" type="text" name="Total a pagar" placeholder="Total a pagar $"></p>
+			</fieldset>
+			<br>
+			<br>
+			<button id="botonResumen" type="button" class="btn btn-primary btn-lg">Resumen</button> 
+			<input id="borrar" type="reset" class="btn btn-primary btn-lg" name="Borrar" value="Borrar">
+			<br>
+			<br>	
+		</form>
+	</section>
+
+	<footer>
+		<nav id="pie">
+		<ul>
+			<li><a href="cpreguntasfrecuentes.html">Preguntas frecuentes</a></li>
+			<li><a href="contacto.html">Contáctanos</a></li>
+			<li><a href="presnsa.html">Prensa</a></li>
+			<li><a href="conferencias.html">Conferencias</a></li>
+			<li><a href="terminosycondiciones.html">Términos y condiciones</a></li>
+			<li><a href="privacidad.html">Privacidad</a></li>
+			<li><a href="estudiantes.html">Estudiantes</a></li>
+		</ul>
+		</nav>
+	</footer>
+</body>
+</html>

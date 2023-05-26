@@ -1,0 +1,146 @@
+*{ 
+	margin: 0; 
+	padding: 0; 
+	font-family: Arial, Helvetica, sans-serif; 
+}
+body{
+	background:#ffffff; 
+}
+header, section, footer{
+	width: 90%; 
+	max-width: 1300px; 
+	margin: 1px auto; 
+}
+/*Formato área de navegación*/
+header nav{
+	background: #808080; 
+	overflow: hidden; 
+}
+header nav ul{
+	list-style: none; 
+}
+header nav ul li{
+	float: left; 
+	margin: 1.5em; 
+}
+header nav ul li a{
+	padding: 10px 10px; 
+	display: inline-block;
+	color: #dfdede; 
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration:none;
+	display:flex;
+	flex-direction: column;
+}
+header nav ul li a:hover{
+	color: #ffffff; 
+}
+#tickets{
+	color: rgb(75, 231, 75);
+}
+/*SECCIÓN DE CAJAS*/
+#cajapadre {
+	display: flex;
+	width: 720px;
+	border: none;
+	justify-content: space-around;
+	align-items: flex-start;
+	}
+	#cajapadre > div {
+	height: 280px;
+	margin: 5px;
+	background-color: #ffffff;
+	}
+	#caja-1 {
+	width: 280px;
+	border: 2px solid;
+	border-color: blue;
+	text-align: center;
+	}
+	#caja-2 {
+	width: 280px;
+	border: 2px solid;
+	border-color: blue;
+	text-align: center;
+	}
+	#caja-3 {
+	width: 280px;
+	border: 2px solid;
+	border-color: yellow;
+	text-align: center;
+	}
+
+	/*SECCIÓN FORMULARIO*/
+
+#formulario{
+	align-items:flex-start;
+	text-align: center;
+}
+
+form{ 
+	position : relative;
+	width  : 740px; 
+	height : 498px;
+	margin : 0 auto;
+	padding: 1em;
+	box-sizing: border-box;
+	background-color:#ffffff;
+}
+#categoria{
+	width: 200px;
+	height: 28px;
+}
+#areaCorreo{
+	width:400px;
+}
+#pago {
+	background-color:#63c7f1;
+	width:400px;
+	height: 50px;
+	color:white;
+}
+  
+#pago::placeholder {
+   color:#094660;
+ }
+
+#botonResumen{
+	background-color: green;
+	width: 200px;
+}
+#borrar{
+	background-color: green;
+	width: 200px;
+}
+
+/*FOOTER*/
+#pie {
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    height: 50px;
+    padding: 0% 2%;
+    background-color: #094660;
+    border-top: 1px solid #094660;
+    border-bottom: 1px solid #094660;
+}
+#pie > div {
+    flex: 1;
+    max-width: 960px;
+}
+
+#pie li {
+    display: inline-block;
+    height: 35px;
+    padding: 15px 10px 0px 10px;
+    margin-right: 5px;
+}
+
+#pie a {
+    font: bold 16px Arial, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
